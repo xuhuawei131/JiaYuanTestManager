@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <jiayuan.huawei.com.jiayuantestmanager.ui.customview.CircularMenu
+        android:id="@+id/circular"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:backgroundColor="#c1c3c6"
+        app:centerViewLayout="@layout/layout_menu_center_layout"
+        app:innerRadius="20dp"
+        app:itemColor="@android:color/white"
+        app:itemCount="5"
+        app:lineWidth="9dp"
+        app:pressedColor="@android:color/holo_blue_dark"
+        app:radius="60dp"
+        app:radiusLineWidth="5dp"
+        app:startAngle="0" />
+</LinearLayout>
