@@ -1,5 +1,7 @@
 package jiayuan.huawei.com.jiayuantestmanager.db;
 
+import android.content.Context;
+
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteOpenHelper;
 
@@ -10,6 +12,11 @@ import net.sqlcipher.database.SQLiteOpenHelper;
  * @time $date$ $time$
  */
 public class ExcelDBHelper extends SQLiteOpenHelper {
+    
+    public ExcelDBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
+        super(context, name, factory, version);
+    }
+
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 

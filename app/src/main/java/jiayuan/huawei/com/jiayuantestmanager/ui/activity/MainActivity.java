@@ -67,8 +67,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
     protected void initData() {
         Log.v("xhw","initData ");
         initIntent();
-        menuList = new ArrayList<MenuBean>();
-        mainList = new ArrayList<ExcelBean>();
+        menuList = new ArrayList<>();
+        mainList = new ArrayList<>();
 
         menuAdapter = new MenuAdapter(this, menuList);
         mainAdapter = new MainAdapter(this, mainList);
